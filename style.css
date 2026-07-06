@@ -1,17 +1,18 @@
- {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    display: flex;
+  display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #f5f2f2;  
+  background-image : url(img/novafoto.avif)
 }
-    cabecalho {
-  background-color: #0f2761;
+
+  .cabecalho {
+  background-color: #7e3e1c;
   padding: 15px 25px;
   display: flex;
   justify-content: space-between;
@@ -24,42 +25,8 @@ body {
 }
 
 h1 {
-  color: yellowgreen
-}
-  
-  
-  
-  
-  .cartao-interno {
-  position: relative;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;  
-}
-
-.cartao-frente,
-.cartao-verso {
-  position: absolute;
-  border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  backface-visibility: hifff;
+  color: #fff;
   font-size: 24px;
-}
-main {
-  flex: 1;
-}
-
-.cartao {
-    width: 260px;
-    height: 200px;
-}
-
-.cartao-imagem {
-    width: 100%;
-}
-footer {
-background-color: #7e3e1c;
-padding: 15px 25px;
-color: #fff;
 }
 main {
   flex: 1;
@@ -98,8 +65,9 @@ section {
   display: flex;
   /*gap: 16px; */
 }
+
 footer {
-background-color: #7e3e1c;
+background-color: #73aacf;
 padding: 15px 25px;
 color: #fff;
 }
