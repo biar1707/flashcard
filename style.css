@@ -12,7 +12,7 @@ body {
 }
 
   .cabecalho {
-  background-color: #7e3e1c;
+  background-color: #bff7fd;
   padding: 15px 25px;
   display: flex;
   justify-content: space-between;
@@ -54,7 +54,7 @@ main {
 .cartao-verso {
   position: absolute;
   border-radius: 12px;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 12px rgba(4, 54, 154, 0.967);
   backface-visibility: hidden;
 }
 
